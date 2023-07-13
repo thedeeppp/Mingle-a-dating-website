@@ -1,0 +1,47 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#navbar{
+    display:flex;
+    position:relative;
+    justify-items: center;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: #ff4e4e; */
+}
+#logo img{
+    height: 60px;
+    width: 140px;
+    border-radius: 30px;
+    margin: 6px 4px;
+}
+#navbar ul{
+    display:flex;
+    list-style: none;
+    
+}
+
+#navbar ul li a{
+    display:inline-block;
+    text-decoration: none;
+    color:red;
+    padding: 21px 32px;
+    font-size: 2rem;
+}
+
+#navbar ul li a:hover{
+    color:violet;
+}
+.sign{
+    display: inline-block;
+    margin: 3px;
+    padding: 10px 10px;
+}
+#language{  
+    color: red;
+    font-size: 1.5rem;
+    border-radius: 14px;
+    margin: 10px 30px;
+}
